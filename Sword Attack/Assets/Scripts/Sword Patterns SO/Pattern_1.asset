@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b652d79499ae8bb4d9a2fe955a916ecd, type: 3}
   m_Name: Pattern_1
   m_EditorClassIdentifier: 
-  <ThrowForce>k__BackingField: 1.8
+  <ThrowForce>k__BackingField: 12.6
   <RotationSpeed>k__BackingField: 1763
-  <TrajectoryAngle>k__BackingField: 15.1
+  <TrajectoryAngle>k__BackingField: 9.8
   <CatchOffset>k__BackingField: 2
   <ReturnSpeed>k__BackingField: 66.3
   <ReturnDelay>k__BackingField: 2

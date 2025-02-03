@@ -91,11 +91,11 @@ public class Sword : MonoBehaviour
         _swordRigibody2D.velocity = Vector2.zero;
     }
 
-    private void OnCollisionEnteê2D(Collision2D collision2D)
+    private void OnTriggerEnter2D(Collider2D collider2D)
     {
-        if (collision2D.collider.CompareTag("Enemy"))
+        if (collider2D.TryGetComponent(out IDamagable damagableObject))
         {
-
+            damagableObject.TakeDamage(_swordPattern.DamageValue);
         }
     }
 }
