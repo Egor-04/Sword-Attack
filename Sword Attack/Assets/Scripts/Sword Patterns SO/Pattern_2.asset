@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b652d79499ae8bb4d9a2fe955a916ecd, type: 3}
   m_Name: Pattern_2
   m_EditorClassIdentifier: 
+  <SwordSize>k__BackingField: {x: 3, y: 1.5}
   <DamageValue>k__BackingField: 5
   <ThrowForce>k__BackingField: 6
   <RotationSpeed>k__BackingField: 7463

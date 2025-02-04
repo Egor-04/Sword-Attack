@@ -19,6 +19,11 @@ public class Sword : MonoBehaviour
 
     private const float _speedProgressMultiplier = 0.2f;
 
+    public void SetParameters(Vector2 size)
+    {
+        transform.localScale = size;
+    }
+
     public void Throw(Transform owner, Vector3 direction, SwordScriptableObject swordPattern)
     {
         if (_isReturning || _isThrowed) return;

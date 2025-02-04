@@ -3,6 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "SO Tools/TrajectoryPattern", fileName = "SwordTrajectoryPattern")]
 public class SwordScriptableObject : ScriptableObject
 {
+    [field: SerializeField] public Vector2 SwordSize { get; private set; } = Vector2.one;
     [field: SerializeField] public int DamageValue { get; private set; } = 5;
     [field: SerializeField] public float ThrowForce { get; private set; } = 5f;
 
